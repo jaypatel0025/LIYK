@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+    }
+
+    .container {
+      width: 800px;
+      max-height: 600px;
+      margin: 100px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .user-info label {
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .user-info p {
+      margin: 0;
+    }
+    .button {
+      max-height: 100px;
+      max-width: 300px;
+      background-color: #000000;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .button:hover{
+      background-color: #7f8890;
+    }
+  </style>
+</head>
+<body background="background.jpg">
+
+  <div class="container">
+   <center><img src="user.png" alt="user" height="100"></center> 
+    <center><h2>Account</h2></center>
+    <hr>
+    <div class="user-info">
+      <center><label for="username">Username:</label>
+      <p id="username">Het Patel</p>
+<hr>
+      <label for="email">Email:</label>
+      <p id="email">patelhet1194@gmail.com</p>
+<hr>
+      <label for="phone">Phone Number:</label>
+      <p id="phone">63535*****</p>
+<hr>
+      <label for="dob">Date of Birth:</label>
+      <p id="dob"> september 11, 2004</p>
+<hr>
+      <label>Gender:</label>
+      <p id="gender">Male</p>
+      <hr>
+      <a href="#" class="button">Edit Information</a>
+      <br><br><hr>
+     <a href="index.html" class="button">Log Out</a>
+     <br><br><hr>
+     <a href="home.html" class="button">Back</a></center><br><br>
+     
+
+    </div>
+  </div>
+
+</body>
+</html>

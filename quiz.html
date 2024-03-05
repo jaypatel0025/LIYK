@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Competition</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .quiz-container {
+            max-width: 800px;
+            margin: 100px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .question {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+
+        .options li {
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #000000;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #000000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body background="/background.jpg">
+
+    <div class="quiz-container">
+        <center><img src="speech-bubble.png" alt="Quize" height="100px"></center>
+        <hr>
+        <center><h3>Indus Valley Civilization</h3></center>
+        <hr>
+        <form action="#" method="post" id="quizForm">
+            <div class="question">1. What is the approximate time range of the Indus Valley Civilization?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q1" value="a">a)  500–200 BCE</label></li>
+                <li><label><input type="radio" name="q1" value="b">b) 3300–1300 BCE</label></li>
+                <li><label><input type="radio" name="q1" value="c">c) 1000–500 CE</label></li>
+                <li><label><input type="radio" name="q1" value="d">d) 200–1200 CE</label></li>
+            </ul><hr>
+            <div class="question">2. Which two major cities are associated with the Indus Valley Civilization?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q2" value="a">a) Agra and Jaipur</label></li>
+                <li><label><input type="radio" name="q2" value="b">b) Mohenjo-Daro and Harappa</label></li>
+                <li><label><input type="radio" name="q2" value="c">c) Varanasi and Patna</label></li>
+                <li><label><input type="radio" name="q2" value="d">d) Delhi and Mumbai</label></li>
+            </ul><hr>
+            <div class="question">3. What was the primary writing system of the Indus Valley Civilization, which is yet to be fully deciphered?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q3" value="a">a) Sanskrit</label></li>
+                <li><label><input type="radio" name="q3" value="b">b) Cuneiform</label></li>
+                <li><label><input type="radio" name="q3" value="c">c) Hieroglyphics</label></li>
+                <li><label><input type="radio" name="q3" value="d">d)  Indus Script</label></li>
+            </ul><hr>
+            <div class="question">4. What is the name of the river around which the majority of Indus Valley Civilization settlements were located?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q4" value="a">a) Ganges</label></li>
+                <li><label><input type="radio" name="q4" value="b">b) Yamuna</label></li>
+                <li><label><input type="radio" name="q4" value="c">c) Indus</label></li>
+                <li><label><input type="radio" name="q4" value="d">d) Sarasvati</label></li>
+            </ul><hr>
+            <div class="question">5. Which industry was a significant part of the economy during the Indus Valley Civilization?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q5" value="a">a) Agriculture</label></li>
+                <li><label><input type="radio" name="q5" value="b">b) Textile</label></li>
+                <li><label><input type="radio" name="q5" value="c">c) Mining</label></li>
+                <li><label><input type="radio" name="q5" value="d">d) Fishing</label></li>
+            </ul><hr>
+            <div class="question">6. What is the unique feature of the architecture in the Indus Valley cities, indicating advanced urban planning?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q6" value="a">a) Skyscrapers</label></li>
+                <li><label><input type="radio" name="q6" value="b">b) Grid Layout</label></li>
+                <li><label><input type="radio" name="q6" value="c">c) Circular structures</label></li>
+                <li><label><input type="radio" name="q6" value="d">d) Pyramid structures</label></li>
+            </ul><hr>
+            <div class="question">7. What evidence suggests that the Indus Valley people had a standardized system of weights and measures?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q7" value="a">a) Archaeological artifacts</label></li>
+                <li><label><input type="radio" name="q7" value="b">b) Ancient texts</label></li>
+                <li><label><input type="radio" name="q7" value="c">c) Coins</label></li>
+                <li><label><input type="radio" name="q7" value="d">d) Orial tradition</label></li>
+            </ul><hr>
+            <div class="question">8. Which metal was extensively used by the Indus Valley Civilization, indicating advanced metallurgical skills?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q8" value="a">a) Gold</label></li>
+                <li><label><input type="radio" name="q8" value="b">b) Iron</label></li>
+                <li><label><input type="radio" name="q8" value="c">c) Copper</label></li>
+                <li><label><input type="radio" name="q8" value="d">d) Silver</label></li>
+            </ul><hr>
+            <div class="question">9. What is the likely reason for the decline of the Indus Valley Civilization?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q9" value="a">a) Natural disasters</label></li>
+                <li><label><input type="radio" name="q9" value="b">b) Invasion</label></li>
+                <li><label><input type="radio" name="q9" value="c">c) Climate change</label></li>
+                <li><label><input type="radio" name="q9" value="d">d) All of above</label></li>
+            </ul><hr>
+            <div class="question">10. Which animal is frequently represented in the art and seals of the Indus Valley Civilization?</div>
+            <ul class="options">
+                <li><label><input type="radio" name="q10" value="a">a) Elephant</label></li>
+                <li><label><input type="radio" name="q10" value="b">b) Tiger</label></li>
+                <li><label><input type="radio" name="q10" value="c">c) Cow</label></li>
+                <li><label><input type="radio" name="q10" value="d">d) Unicorn</label></li>
+            </ul><hr>
+            
+
+            
+            <a href="score.html" class="button">Submit</a>
+            <a href="upcoming.html" class="button">Back</a>
+        </form>
+    </div>
+
+</body>
+</html>
